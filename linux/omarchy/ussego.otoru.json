@@ -1,0 +1,16 @@
+{
+  "downloadDir": "/home/notstoicc/Downloads",
+  "autoClipboard": false,
+  "audioFormat": "best",
+  "quality": "best",
+  "advancedVisible": true,
+  "outputTemplate": "%(title)s.%(ext)s",
+  "cookies": "",
+  "cookiesFromBrowser": "",
+  "cookiesProfile": "",
+  "proxy": "",
+  "rateLimit": "",
+  "concurrentFragments": "",
+  "customFormatSelector": "",
+  "customArgs": ""
+}

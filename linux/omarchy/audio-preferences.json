@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "defaults": {
+    "output": "",
+    "input": ""
+  },
+  "bluetoothProfiles": {
+    "ac122f3c4ebb": "a2dp-sink"
+  }
+}

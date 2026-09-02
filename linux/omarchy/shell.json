@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "bar": {
+    "position": "top",
+    "transparent": true,
+    "centerAnchor": "omarchy.clock",
+    "layout": {
+      "left": [
+        {
+          "id": "shavanced.notification-center"
+        },
+        {
+          "id": "io.github.rizmi.divider"
+        },
+        {
+          "id": "saif.workspaces"
+        }
+      ],
+      "center": [
+        {
+          "id": "omarchy.clock"
+        },
+        {
+          "id": "omarchy.weather"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "saif.system-stats"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.system-update"
+        },
+        {
+          "id": "omarchy.media"
+        },
+        {
+          "id": "omarchy.power",
+          "showPercentage": true
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "omarchy.tailscale"
+        },
+        {
+          "id": "3lymn.plugin-drawer",
+          "widgets": [
+            "oma.nearby",
+            "omarchy.monitor",
+            "ussego.otoru",
+            "omarchy.tailscale"
+          ]
+        }
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "id": "vbrosseau.alttab"
+    },
+    {
+      "id": "shmall.lock"
+    },
+    {
+      "id": "oma.nearby",
+      "receiverEnabled": false
+    },
+    {
+      "id": "omarchy.agents"
+    },
+    {
+      "id": "omarchy.workspaces"
+    },
+    {
+      "id": "omarchy.menu"
+    },
+    {
+      "id": "omarchy.monitor"
+    },
+    {
+      "id": "omarchy.indicators"
+    },
+    {
+      "id": "omarchy.keyboard-layout"
+    },
+    {
+      "id": "ussego.otoru"
+    },
+    {
+      "id": "omarchy.tailscale"
+    },
+    {
+      "id": "bobbynicholas.omaland"
+    }
+  ],
+  "disabledPlugins": [
+    "omarchy.lock"
+  ],
+  "cloneSourceRestores": [
+    "shmall.lock"
+  ]
+}
